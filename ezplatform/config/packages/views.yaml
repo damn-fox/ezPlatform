@@ -1,0 +1,15 @@
+ezplatform:
+  system:
+    site:
+      user_registration:
+        templates:
+          form: user/registration_form.html.twig
+          confirmation: user/registration_confirmation.html.twig
+      content_view:
+        #full views here
+        line:
+          landmark:
+            template: line/landmark.html.twig
+            controller: App\Controller\RideController::viewRideWithLandmarksAction
+            match:
+              Identifier\ContentType: landmark

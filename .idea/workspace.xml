@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="529493a4-2df4-4806-981f-7e6ad0860a61" name="Default Changelist" comment="" />
+    <list default="true" id="529493a4-2df4-4806-981f-7e6ad0860a61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ezplatform/config/packages/views.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ezplatform/src/Controller/RideController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ezplatform/src/QueryType/RideQueryType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ezplatform/templates/full/home_page.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ezplatform/templates/full/ride.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ezplatform/templates/line/landmark.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ezplatform/templates/line/rides.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ezplatform/templates/main_layout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ezplatform/templates/user/registration_confirmation.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ezplatform/templates/user/registration_content_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ezplatform/templates/user/registration_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ezplatform/config/packages/ezplatform.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ezplatform/config/packages/ezplatform.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ezplatform/config/packages/ezplatform_welcome_page.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ezplatform/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ezplatform/webpack.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +45,9 @@
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/ezplatform/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -258,13 +296,16 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ctfcxaoT4VuUSsCKBo8y1Z8qzA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -273,6 +314,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -284,11 +326,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591352893371</updated>
-      <workItem from="1591352895941" duration="6798000" />
+      <workItem from="1591352895941" duration="12417000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2783" y="392" width="256" height="330" key="#Notifications" timestamp="1591603861446">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2783" y="392" width="256" height="330" key="#Notifications/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591603861446" />
+    <state x="2573" y="345" width="675" height="423" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591607003373">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2573" y="345" width="675" height="423" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591607003373" />
+    <state x="2325" y="195" width="1022" height="737" key="SettingsEditor" timestamp="1591607868390">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2325" y="195" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591607868390" />
   </component>
 </project>
