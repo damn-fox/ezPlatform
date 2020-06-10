@@ -19,30 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="529493a4-2df4-4806-981f-7e6ad0860a61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ezplatform/config/packages/views.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ezplatform/src/Controller/RideController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ezplatform/src/QueryType/RideQueryType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ezplatform/templates/full/home_page.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ezplatform/templates/full/ride.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ezplatform/templates/line/landmark.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ezplatform/templates/line/rides.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ezplatform/templates/main_layout.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ezplatform/templates/user/registration_confirmation.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ezplatform/templates/user/registration_content_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ezplatform/templates/user/registration_form.html.twig" afterDir="false" />
+    <list default="true" id="529493a4-2df4-4806-981f-7e6ad0860a61" name="Default Changelist" comment="created view and handled user permissions">
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ezplatform/src/Command/ViewContentMetaDataCommand.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ezplatform/config/packages/ezplatform.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ezplatform/config/packages/ezplatform.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ezplatform/config/packages/ezplatform_welcome_page.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ezplatform/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ezplatform/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ezplatform/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ezplatform/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ezplatform/templates/main_layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/ezplatform/templates/main_layout.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ezplatform/templates/user/registration_content_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/ezplatform/templates/user/registration_content_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ezplatform/templates/user/registration_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/ezplatform/templates/user/registration_form.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/ezplatform/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -305,7 +296,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -314,7 +304,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -326,8 +316,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591352893371</updated>
-      <workItem from="1591352895941" duration="12417000" />
+      <workItem from="1591352895941" duration="15250000" />
+      <workItem from="1591629032184" duration="21495000" />
+      <workItem from="1591779283469" duration="2068000" />
     </task>
+    <task id="LOCAL-00001" summary="created view and handled user permissions">
+      <created>1591609230760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591609230760</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,6 +343,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created view and handled user permissions" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2783" y="392" width="256" height="330" key="#Notifications" timestamp="1591603861446">
@@ -353,9 +358,13 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2573" y="345" width="675" height="423" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591607003373" />
-    <state x="2325" y="195" width="1022" height="737" key="SettingsEditor" timestamp="1591607868390">
+    <state x="2263" y="173" width="1022" height="737" key="SettingsEditor" timestamp="1591779267300">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2325" y="195" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591607868390" />
+    <state x="2263" y="173" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591779267300" />
+    <state x="2511" y="271" width="800" height="572" key="Vcs.Push.Dialog.v2" timestamp="1591609234061">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2511" y="271" width="800" height="572" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591609234061" />
   </component>
 </project>

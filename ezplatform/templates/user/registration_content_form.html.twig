@@ -24,7 +24,7 @@
 
         {% if fieldIdentifier == 'user_account' %}
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-5">
                     {{ form_widget(fieldForm.value, {
                         'contentData': form.vars.data
                     }) }}
@@ -34,7 +34,7 @@
 
         {%- do fieldForm.setRendered() -%}
     {% endfor %}
-
+<br />
     <div class="row">
         <div class="col-md-4 col-md-offset-4">
             {{ form_widget(form.register, {'attr': {
