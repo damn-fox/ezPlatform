@@ -1,0 +1,8 @@
+{% extends "main_layout.html.twig" %}
+{% block content %}
+    <h1>Totale items trovati : {{ totItem }}</h1>
+
+    {% for item in names %}
+        <h4>{{ item }}</h4>
+    {% endfor %}
+{% endblock %}

@@ -54,6 +54,11 @@ security:
                 csrf_token_generator: security.csrf.token_manager
             logout: ~
 
+        ezpublish_rest:
+            pattern: ^/api/ezp/v2
+            ezpublish_http_basic:
+                realm: eZ Platform REST API
+
         main:
             anonymous: ~
             # activate different ways to authenticate
