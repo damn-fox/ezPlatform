@@ -81,6 +81,7 @@ ezplatform:
                 varnish_invalidate_token: '%varnish_invalidate_token%'
 
         site:
+
             languages: [eng-GB]
             content_view:
                 full:

@@ -22,6 +22,7 @@ class RideQueryType implements QueryType
                     new Criterion\ContentTypeIdentifier(['ride']),
                 ]
             )
+
         ]);
     }
 

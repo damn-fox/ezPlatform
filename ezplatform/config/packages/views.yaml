@@ -1,6 +1,8 @@
 ezplatform:
+
   system:
     site:
+
       user_registration:
         templates:
           form: user/registration_form.html.twig
